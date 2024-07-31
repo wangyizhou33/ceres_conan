@@ -1,0 +1,5 @@
+[requires]
+ceres-solver/2.2.0
+[generators]
+CMakeDeps
+CMakeToolchain
