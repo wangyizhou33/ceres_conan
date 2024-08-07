@@ -11,3 +11,6 @@ target_link_libraries(robust_curve_fitting PRIVATE Ceres::ceres)
 
 add_executable(iteration_callback_example iteration_callback_example.cc)
 target_link_libraries(iteration_callback_example PRIVATE Ceres::ceres)
+
+add_executable(evaluation_callback_example evaluation_callback_example.cc)
+target_link_libraries(evaluation_callback_example PRIVATE Ceres::ceres)
